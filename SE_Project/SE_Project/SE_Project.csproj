@@ -67,18 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Manage.aspx" />
+    <Content Include="ManageGroups.aspx" />
     <Content Include="Projects.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Manage.aspx.cs">
-      <DependentUpon>Manage.aspx</DependentUpon>
+    <Compile Include="ManageGroups.aspx.cs">
+      <DependentUpon>ManageGroups.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Manage.aspx.designer.cs">
-      <DependentUpon>Manage.aspx</DependentUpon>
+    <Compile Include="ManageGroups.aspx.designer.cs">
+      <DependentUpon>ManageGroups.aspx</DependentUpon>
     </Compile>
     <Compile Include="Projects.aspx.cs">
       <DependentUpon>Projects.aspx</DependentUpon>
